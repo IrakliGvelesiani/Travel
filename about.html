@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+    />
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="./index.html"
+        ><img src="./img/logo.png" class="logo" alt="logo" width="110px"
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./packages.html">Packages</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a class="active" href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li>
+            <a id="lg-user" href="./login.html"
+              ><i class="fas fa-user" id="login-btn"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+
+      <div id="mobile">
+        <a href="./login.html"><i class="fas fa-user" id="login-btn"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+
+    <section id="about-head" class="section-p1">
+      <img src="./img/a6.png" alt="earth" />
+      <div>
+        <h4>About Us</h4>
+        <h2>Welcome To <span style="color: var(--orange)">Travel</span></h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+          optio blanditiis vitae natus hic assumenda maiores, mollitia
+          laboriosam magnam ullam perspiciatis quod voluptatem corrupti
+          consequuntur sit laborum eaque? Reprehenderit architecto minus
+          dignissimos enim inventore vel suscipit unde hic quam impedit
+          explicabo sit aut facilis deleniti recusandae, non quidem quod
+          perferendis?
+        </p>
+        <p>
+          Create Stunning images with as much or as little control as you like
+          thanks to a choice of Basic and Creative modes.
+        </p>
+      </div>
+    </section>
+
+    <section id="about-app" class="section-p1">
+      <div class="video">
+        <video autoplay muted loop src="./img/1.mp4"></video>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-Mail updates about your
+          <span> special offers. </span>
+        </p>
+      </div>
+
+      <form action="text">
+        <input type="text " placeholder="Your Email Address" />
+        <button class="normal">Sign Up</button>
+      </form>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 2213 ogletown rd unit B</p>
+        <p><strong>Phone:</strong> +01 2345 678</p>
+        <p><strong>Hours:</strong> 09:00 - 21:00. Mon - Fri</p>
+
+        <div class="socials">
+          <h4>Follow Us</h4>
+
+          <div class="social-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>Download Our App</p>
+        <div class="row">
+          <img src="./img/app.jpg" alt="appstore" />
+          <img src="./img/play.jpg" alt="googleplay" />
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2022 - Created By
+          <span style="color: var(--orange)">Irakli Gvelesiani</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Cookies -->
+    <div class="cookie-consent-modal">
+      <div class="cookie-content">
+        <img src="./img/plane.png" alt="cookies" />
+        <h3>Cookies and Privacy</h3>
+        <p>
+          This website uses cookies to ensure you to get the best experience on
+          our website
+        </p>
+
+        <div class="btns">
+          <button class="btn cancel normal">Cancel</button>
+          <button class="btn accept normal">Accept</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/cookie.js"></script>
+  </body>
+</html>
